@@ -1,0 +1,46 @@
+# Configurações principais do projeto
+project:
+  name: "Cooperative Demand Response with MARL"
+  version: "0.1.0"
+  description: "Sistema de Resposta Cooperativa à Demanda com Aprendizado por Reforço Multi-Agente"
+
+# Configurações do ambiente
+environment:
+  num_agents: 5
+  max_steps: 1000
+  time_horizon: 24  # horas
+  demand_profile: "residential"
+
+# Configurações dos agentes
+agents:
+  type: "cooperative"
+  observation_space: "continuous"
+  action_space: "discrete"
+  communication: true
+
+# Configurações de treinamento
+training:
+  algorithm: "MADDPG"
+  episodes: 10000
+  batch_size: 256
+  learning_rate: 0.001
+  gamma: 0.99
+  tau: 0.01
+
+# Configurações de dados
+data:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  external_data_path: "data/external"
+
+# Configurações de modelos
+models:
+  checkpoint_path: "models/checkpoints"
+  trained_model_path: "models/trained"
+  save_frequency: 1000
+
+# Configurações de resultados
+results:
+  log_path: "results/logs"
+  plot_path: "results/plots"
+  experiment_path: "results/experiments"
