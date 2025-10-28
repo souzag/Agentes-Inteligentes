@@ -37,7 +37,6 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 
 # Data files
 data/raw/*.csv
@@ -62,6 +61,8 @@ results/experiments/*.pkl
 results/plots/*.png
 results/plots/*.pdf
 results/plots/*.svg
+results/*.txt
+results/*.md
 
 # Environment variables
 .env
@@ -86,3 +87,48 @@ desktop.ini
 *.cache
 *.sqlite3
 *.db
+
+# MARL Project Specific
+# Stable Baselines3 models and checkpoints
+*.zip
+models/trained/*.zip
+models/checkpoints/*.zip
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+
+# CityLearn specific
+citylearn_cache/
+*.citylearn
+
+# Graph visualization files (pydot/graphviz)
+*.dot
+*.gv
+
+# Package installation artifacts
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter kernel specs (local user kernels)
+.local/share/jupyter/kernels/
