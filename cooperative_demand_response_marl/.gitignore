@@ -132,3 +132,106 @@ coverage.xml
 
 # Jupyter kernel specs (local user kernels)
 .local/share/jupyter/kernels/
+
+# Arquivos específicos do projeto que não devem ser versionados
+# Arquivos de configuração temporários ou específicos da máquina
+*.local
+*.tmp
+*.temp
+*.bak
+*.cache
+*.sqlite3
+*.db
+
+# Arquivos de log adicionais
+*.log
+logs/
+tensorboard_logs/
+
+# Arquivos de checkpoint e modelos treinados (já parcialmente cobertos, mas reforçando)
+models/trained/*.pkl
+models/trained/*.pt
+models/trained/*.pth
+models/checkpoints/*.pkl
+models/checkpoints/*.pt
+models/checkpoints/*.pth
+models/trained/*.zip
+models/checkpoints/*.zip
+
+# Arquivos de resultados e visualizações
+results/logs/*.log
+results/experiments/*.pkl
+results/plots/*.png
+results/plots/*.pdf
+results/plots/*.svg
+results/*.txt
+results/*.md
+results/*.json
+
+# Arquivos de dados processados e externos (se não forem versionados)
+data/processed/*.csv
+data/processed/*.pkl
+data/external/*.csv
+data/external/*.json
+
+# Arquivos específicos do CityLearn e MARL
+citylearn_cache/
+*.citylearn
+*.zip
+
+# Arquivos de visualização e gráficos
+*.dot
+*.gv
+
+# Arquivos de instalação e build
+pip-log.txt
+pip-delete-this-directory.txt
+*.manifest
+*.spec
+
+# Arquivos de cobertura e testes
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Arquivos do sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos temporários adicionais
+**/.DS_Store
+**/*.tmp
+**/*.temp
+**/*.bak
+**/*.cache
+**/*.log
+
+# Arquivos de ambiente virtual (se não estiverem no .gitignore)
+venv/
+env/
+ENV/
+.venv
+
+# Arquivos de configuração específicos
+.env
+.env.local
+
+# Relatórios e documentação externa (manter apenas documentação essencial no repositório)
+relatorio_cooperative_demand_response_marl.md

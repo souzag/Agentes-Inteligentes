@@ -233,6 +233,8 @@ class CityLearnVecEnv(gymnasium.Env):
             obs, rewards, done, info = citylearn_result
         else:
             obs, rewards, done, truncated, info = citylearn_result
+            # Combinar done e truncated para compatibilidade
+            done = done or truncated
 
         # Converter para formato vetorizado
         vectorized_obs = self._concatenate_observations(obs)

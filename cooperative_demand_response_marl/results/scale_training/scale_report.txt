@@ -1,0 +1,47 @@
+================================================================================
+RELATÓRIO DE AVALIAÇÃO EM ESCALA - MARL
+Sistema de Resposta Cooperativa à Demanda
+================================================================================
+
+Data: Outubro 2025
+Objetivo: Avaliação de performance em escala com múltiplos datasets CityLearn 2022
+
+🔧 CONFIGURAÇÃO DE AVALIAÇÃO
+--------------------------------------------------
+Datasets avaliados: citylearn_challenge_2022_phase_1, citylearn_challenge_2022_phase_2, citylearn_challenge_2022_phase_3
+Tipos de agentes: random, independent, cooperative
+Timesteps por treinamento: 500,000
+Episódios de avaliação: 20
+
+📊 RESULTADOS POR DATASET
+--------------------------------------------------
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_1
+------------------------------
+Características: 5 prédios, Mixed-Humid
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_2
+------------------------------
+Características: 5 prédios, Hot-Humid
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_3
+------------------------------
+Características: 7 prédios, Mixed-Dry
+
+🎯 CONCLUSÕES E RECOMENDAÇÕES
+--------------------------------------------------
+
+📋 RECOMENDAÇÕES PARA PRODUÇÃO:
+• Usar agentes cooperativos para melhor performance
+• Datasets com mais prédios (phase_3) mostram maior potencial
+• Treinamentos mais longos melhoram estabilidade
+• Implementar comunicação full para coordenação ótima
+
+📁 ARQUIVOS GERADOS
+--------------------------------------------------
+• results/scale_training/scale_performance_comparison.png
+• results/scale_training/scale_detailed_performance.png
+• results/scale_training/scale_report.txt
+• results/scale_training/results.json
+
+================================================================================

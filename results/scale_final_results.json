@@ -1,0 +1,673 @@
+{
+  "timestamp": "2025-11-03T19:25:00.197314",
+  "datasets_evaluated": [
+    "citylearn_challenge_2022_phase_1",
+    "citylearn_challenge_2022_phase_2",
+    "citylearn_challenge_2022_phase_3"
+  ],
+  "all_results": {
+    "citylearn_challenge_2022_phase_1": {
+      "random": {
+        "num_agents": 5,
+        "mean_reward": -1.6304650087407322,
+        "std_reward": 0.017300599675530538,
+        "min_reward": -1.6563348922077565,
+        "max_reward": -1.6018076999981417,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.6316132386690008,
+            "std_reward": 0.022217556561820957,
+            "min_reward": -1.6643854531459505,
+            "max_reward": -1.5956510801333936,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6299808391733095,
+            "std_reward": 0.024383835902142974,
+            "min_reward": -1.6618249649554504,
+            "max_reward": -1.6018459592480199,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.6018076999981417,
+            "std_reward": 0.04439286750722979,
+            "min_reward": -1.6819289068039522,
+            "max_reward": -1.566668738694859,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.6325883736554538,
+            "std_reward": 0.04238346107605857,
+            "min_reward": -1.7037601375207314,
+            "max_reward": -1.5717087718565024,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.6563348922077565,
+            "std_reward": 0.012590178904154458,
+            "min_reward": -1.6750751130096604,
+            "max_reward": -1.6380406431853773,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "rule_based": {
+        "num_agents": 5,
+        "mean_reward": -1.6224328482730317,
+        "std_reward": 0.017142347318902892,
+        "min_reward": -1.6418799823741435,
+        "max_reward": -1.5913957169540225,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.6315377146666878,
+            "std_reward": 0.033654761860221025,
+            "min_reward": -1.6838024103920923,
+            "max_reward": -1.591088051227854,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6282481198366736,
+            "std_reward": 0.012372272776908276,
+            "min_reward": -1.6393232718482622,
+            "max_reward": -1.6056131394114346,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.6418799823741435,
+            "std_reward": 0.056092414288523136,
+            "min_reward": -1.7166311229020352,
+            "max_reward": -1.5595454444270598,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.6191027075336322,
+            "std_reward": 0.03147803747803258,
+            "min_reward": -1.6462832287326428,
+            "max_reward": -1.5745728455041537,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.5913957169540225,
+            "std_reward": 0.023394937848515013,
+            "min_reward": -1.6205169491656146,
+            "max_reward": -1.5511901367269454,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "independent": {
+        "num_agents": 5,
+        "mean_reward": -1.617977073815093,
+        "std_reward": 0.017185396730621305,
+        "min_reward": -1.6375284801144154,
+        "max_reward": -1.586405800475739,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.586405800475739,
+            "std_reward": 0.028654757917773877,
+            "min_reward": -1.6194585498981184,
+            "max_reward": -1.5500219709705565,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6183881512898952,
+            "std_reward": 0.02811707353809013,
+            "min_reward": -1.6494159369729466,
+            "max_reward": -1.575581379318609,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.627663190710359,
+            "std_reward": 0.046882937607606395,
+            "min_reward": -1.7130985021404936,
+            "max_reward": -1.5750982688274233,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.6375284801144154,
+            "std_reward": 0.05196723798760817,
+            "min_reward": -1.6864683166891323,
+            "max_reward": -1.5675507358275371,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.6198997464850546,
+            "std_reward": 0.03658939830436152,
+            "min_reward": -1.6659963301662362,
+            "max_reward": -1.5577973225153987,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "cooperative": {
+        "num_agents": 5,
+        "mean_reward": -0.000411158195596954,
+        "std_reward": 0.00010103499619074889,
+        "min_reward": -0.000602150364248927,
+        "max_reward": -0.00030637648295396515,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -0.00035528394114862786,
+            "std_reward": 0.0,
+            "min_reward": -0.00035528394114862786,
+            "max_reward": -0.00035528394114862786,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -0.000602150364248927,
+            "std_reward": 0.0,
+            "min_reward": -0.000602150364248927,
+            "max_reward": -0.000602150364248927,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -0.00039526153019323816,
+            "std_reward": 0.0,
+            "min_reward": -0.00039526153019323816,
+            "max_reward": -0.00039526153019323816,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -0.00039671865944001177,
+            "std_reward": 0.0,
+            "min_reward": -0.00039671865944001177,
+            "max_reward": -0.00039671865944001177,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -0.00030637648295396515,
+            "std_reward": 0.0,
+            "min_reward": -0.00030637648295396515,
+            "max_reward": -0.00030637648295396515,
+            "mean_length": 500.0
+          }
+        ]
+      }
+    },
+    "citylearn_challenge_2022_phase_2": {
+      "random": {
+        "num_agents": 5,
+        "mean_reward": -1.635448034393787,
+        "std_reward": 0.015614909201295605,
+        "min_reward": -1.651952125821263,
+        "max_reward": -1.6070764398071915,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.6448166953958563,
+            "std_reward": 0.016728104346022486,
+            "min_reward": -1.6635108474269507,
+            "max_reward": -1.6180991948861616,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6316526255169876,
+            "std_reward": 0.028171490828253588,
+            "min_reward": -1.6842232339363543,
+            "max_reward": -1.60492567110341,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.651952125821263,
+            "std_reward": 0.031093393261006748,
+            "min_reward": -1.7052065757289538,
+            "max_reward": -1.609750992543995,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.6417422854276373,
+            "std_reward": 0.02081283715690197,
+            "min_reward": -1.6758274149661887,
+            "max_reward": -1.6213254705257705,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.6070764398071915,
+            "std_reward": 0.06257437445915304,
+            "min_reward": -1.7212333102151753,
+            "max_reward": -1.5312917491700504,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "rule_based": {
+        "num_agents": 5,
+        "mean_reward": -1.622981757524609,
+        "std_reward": 0.020990996789981394,
+        "min_reward": -1.6412458783704782,
+        "max_reward": -1.582650773818604,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.582650773818604,
+            "std_reward": 0.03659400626148214,
+            "min_reward": -1.6304920719005147,
+            "max_reward": -1.5268046358320864,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6412458783704782,
+            "std_reward": 0.015958468958806985,
+            "min_reward": -1.6661600439436732,
+            "max_reward": -1.6173582580592476,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.637405235817655,
+            "std_reward": 0.040528919902699655,
+            "min_reward": -1.6797724688984437,
+            "max_reward": -1.5605351179838172,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.628491049335338,
+            "std_reward": 0.03431204255976406,
+            "min_reward": -1.6739152979478233,
+            "max_reward": -1.594786634426564,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.6251158502809708,
+            "std_reward": 0.04347512825730891,
+            "min_reward": -1.693648134060206,
+            "max_reward": -1.5639070584252461,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "independent": {
+        "num_agents": 5,
+        "mean_reward": -1.6326919811103955,
+        "std_reward": 0.006792836926223809,
+        "min_reward": -1.643087996243499,
+        "max_reward": -1.622068472886691,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.622068472886691,
+            "std_reward": 0.03397199004432924,
+            "min_reward": -1.6775228650309144,
+            "max_reward": -1.585928913573735,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.6342523695304991,
+            "std_reward": 0.029157023900943633,
+            "min_reward": -1.6853872953541575,
+            "max_reward": -1.6055346757452942,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.6302291491739456,
+            "std_reward": 0.028805239826728442,
+            "min_reward": -1.680489539923148,
+            "max_reward": -1.5913540425710375,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.643087996243499,
+            "std_reward": 0.011240334595620866,
+            "min_reward": -1.6569661445915693,
+            "max_reward": -1.6235777928680195,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.6338219177173443,
+            "std_reward": 0.02379163351254028,
+            "min_reward": -1.6677008479554212,
+            "max_reward": -1.6028491014242172,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "cooperative": {
+        "num_agents": 5,
+        "mean_reward": -0.0005209459047737255,
+        "std_reward": 7.98306780526439e-05,
+        "min_reward": -0.0006095164077714804,
+        "max_reward": -0.0004150776010374102,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -0.0006095164077714804,
+            "std_reward": 0.0,
+            "min_reward": -0.0006095164077714804,
+            "max_reward": -0.0006095164077714804,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -0.0006080114662063356,
+            "std_reward": 0.0,
+            "min_reward": -0.0006080114662063356,
+            "max_reward": -0.0006080114662063356,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -0.0004486610093954365,
+            "std_reward": 0.0,
+            "min_reward": -0.0004486610093954365,
+            "max_reward": -0.0004486610093954365,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -0.0004150776010374102,
+            "std_reward": 0.0,
+            "min_reward": -0.0004150776010374102,
+            "max_reward": -0.0004150776010374102,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -0.000523463039457965,
+            "std_reward": 0.0,
+            "min_reward": -0.000523463039457965,
+            "max_reward": -0.000523463039457965,
+            "mean_length": 500.0
+          }
+        ]
+      }
+    },
+    "citylearn_challenge_2022_phase_3": {
+      "random": {
+        "num_agents": 7,
+        "mean_reward": -1.743608708710809,
+        "std_reward": 0.009534953027283159,
+        "min_reward": -1.7578727597054093,
+        "max_reward": -1.7316984916422515,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.7466680974960327,
+            "std_reward": 0.032942500677674284,
+            "min_reward": -1.7768598499521593,
+            "max_reward": -1.6837695430964241,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.7562957234419883,
+            "std_reward": 0.033169599832950585,
+            "min_reward": -1.8067875720746822,
+            "max_reward": -1.7160844856500623,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.7578727597054093,
+            "std_reward": 0.024609434529190125,
+            "min_reward": -1.7876053630188118,
+            "max_reward": -1.7260970599576853,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.7400369160231215,
+            "std_reward": 0.023798337465414505,
+            "min_reward": -1.7672352573275572,
+            "max_reward": -1.710814465694131,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.7352320286482574,
+            "std_reward": 0.011503017865284647,
+            "min_reward": -1.749072613064202,
+            "max_reward": -1.7205888558737945,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 5,
+            "mean_reward": -1.7374569440186025,
+            "std_reward": 0.03681647006945015,
+            "min_reward": -1.7968686827644693,
+            "max_reward": -1.6955002445913845,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 6,
+            "mean_reward": -1.7316984916422515,
+            "std_reward": 0.043555899115437044,
+            "min_reward": -1.7883598819375044,
+            "max_reward": -1.6869688038900492,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "rule_based": {
+        "num_agents": 7,
+        "mean_reward": -1.7390385582023968,
+        "std_reward": 0.013342172579282045,
+        "min_reward": -1.7569426974616948,
+        "max_reward": -1.718479342199862,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.7250498367063702,
+            "std_reward": 0.019583596575939888,
+            "min_reward": -1.7533858655393122,
+            "max_reward": -1.6937919172272091,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.718479342199862,
+            "std_reward": 0.01636573011783463,
+            "min_reward": -1.7318608451262119,
+            "max_reward": -1.6873057231307043,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.740050141595304,
+            "std_reward": 0.039845001630285516,
+            "min_reward": -1.7940664839372038,
+            "max_reward": -1.7042649915814398,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.7569426974616948,
+            "std_reward": 0.03740184303910773,
+            "min_reward": -1.7989641772210594,
+            "max_reward": -1.6943173325993124,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.7415748041756451,
+            "std_reward": 0.019901712334919233,
+            "min_reward": -1.7733103548735365,
+            "max_reward": -1.7227244358323508,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 5,
+            "mean_reward": -1.7559297298807652,
+            "std_reward": 0.01912867927295955,
+            "min_reward": -1.7887093676812955,
+            "max_reward": -1.729845263781027,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 6,
+            "mean_reward": -1.735243355397135,
+            "std_reward": 0.03793378267273424,
+            "min_reward": -1.7917708528786895,
+            "max_reward": -1.6923704693466426,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "independent": {
+        "num_agents": 7,
+        "mean_reward": -1.7439333805936792,
+        "std_reward": 0.010346192774485449,
+        "min_reward": -1.7642377126999205,
+        "max_reward": -1.7262801500745113,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -1.7262801500745113,
+            "std_reward": 0.02440228124748383,
+            "min_reward": -1.7646308583021162,
+            "max_reward": -1.6901024523191153,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -1.7439684325568385,
+            "std_reward": 0.03946753738200672,
+            "min_reward": -1.7996321731060745,
+            "max_reward": -1.6880171740800167,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -1.7394326736014336,
+            "std_reward": 0.03238615685970554,
+            "min_reward": -1.7740709440782674,
+            "max_reward": -1.6867375435400747,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -1.7445499786082657,
+            "std_reward": 0.019458870554507825,
+            "min_reward": -1.7729913079738617,
+            "max_reward": -1.7135107168927783,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -1.7431096582934267,
+            "std_reward": 0.011205191643531067,
+            "min_reward": -1.7607259723916633,
+            "max_reward": -1.7281393022462732,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 5,
+            "mean_reward": -1.745955058321357,
+            "std_reward": 0.03059089722117834,
+            "min_reward": -1.7743783004581932,
+            "max_reward": -1.6886296679824588,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 6,
+            "mean_reward": -1.7642377126999205,
+            "std_reward": 0.027780911753710363,
+            "min_reward": -1.797338849864903,
+            "max_reward": -1.7178452312946315,
+            "mean_length": 500.0
+          }
+        ]
+      },
+      "cooperative": {
+        "num_agents": 7,
+        "mean_reward": -0.0003728155289802867,
+        "std_reward": 7.55710795869539e-05,
+        "min_reward": -0.0004952568405224158,
+        "max_reward": -0.00029774823882235086,
+        "agent_results": [
+          {
+            "agent_id": 0,
+            "mean_reward": -0.0002986390108799239,
+            "std_reward": 0.0,
+            "min_reward": -0.0002986390108799239,
+            "max_reward": -0.0002986390108799239,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 1,
+            "mean_reward": -0.00029774823882235086,
+            "std_reward": 0.0,
+            "min_reward": -0.00029774823882235086,
+            "max_reward": -0.00029774823882235086,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 2,
+            "mean_reward": -0.00046900471257686137,
+            "std_reward": 5.421010862427522e-20,
+            "min_reward": -0.0004690047125768613,
+            "max_reward": -0.0004690047125768613,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 3,
+            "mean_reward": -0.0003250602784737565,
+            "std_reward": 0.0,
+            "min_reward": -0.0003250602784737565,
+            "max_reward": -0.0003250602784737565,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 4,
+            "mean_reward": -0.0004952568405224158,
+            "std_reward": 0.0,
+            "min_reward": -0.0004952568405224158,
+            "max_reward": -0.0004952568405224158,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 5,
+            "mean_reward": -0.00032974376239508263,
+            "std_reward": 0.0,
+            "min_reward": -0.00032974376239508263,
+            "max_reward": -0.00032974376239508263,
+            "mean_length": 500.0
+          },
+          {
+            "agent_id": 6,
+            "mean_reward": -0.00039425585919161606,
+            "std_reward": 0.0,
+            "min_reward": -0.00039425585919161606,
+            "max_reward": -0.00039425585919161606,
+            "mean_length": 500.0
+          }
+        ]
+      }
+    }
+  },
+  "best_configuration": [
+    "citylearn_challenge_2022_phase_1",
+    "cooperative",
+    -0.000411158195596954
+  ]
+}

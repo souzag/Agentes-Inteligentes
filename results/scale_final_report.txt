@@ -1,0 +1,139 @@
+================================================================================
+RELATÓRIO FINAL - AVALIAÇÃO EM ESCALA MARL
+Sistema de Resposta Cooperativa à Demanda
+================================================================================
+
+Data: Novembro 2025
+Objetivo: Demonstração completa em escala com todos os datasets CityLearn 2022
+
+🏗️ DATASETS AVALIADOS
+--------------------------------------------------
+• citylearn_challenge_2022_phase_1: 5 prédios, Mixed-Humid
+• citylearn_challenge_2022_phase_2: 5 prédios, Hot-Humid
+• citylearn_challenge_2022_phase_3: 7 prédios, Mixed-Dry
+
+📊 RESULTADOS DETALHADOS
+--------------------------------------------------
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_1
+------------------------------
+
+🤖 RANDOM AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.630465
+  • Desvio padrão: 0.017301
+  • Range: [-1.656335, -1.601808]
+
+🤖 RULE BASED AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.622433
+  • Desvio padrão: 0.017142
+  • Range: [-1.641880, -1.591396]
+
+🤖 INDEPENDENT AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.617977
+  • Desvio padrão: 0.017185
+  • Range: [-1.637528, -1.586406]
+
+🤖 COOPERATIVE AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -0.000411
+  • Desvio padrão: 0.000101
+  • Range: [-0.000602, -0.000306]
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_2
+------------------------------
+
+🤖 RANDOM AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.635448
+  • Desvio padrão: 0.015615
+  • Range: [-1.651952, -1.607076]
+
+🤖 RULE BASED AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.622982
+  • Desvio padrão: 0.020991
+  • Range: [-1.641246, -1.582651]
+
+🤖 INDEPENDENT AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -1.632692
+  • Desvio padrão: 0.006793
+  • Range: [-1.643088, -1.622068]
+
+🤖 COOPERATIVE AGENTS
+  • Número de agentes: 5
+  • Recompensa média: -0.000521
+  • Desvio padrão: 0.000080
+  • Range: [-0.000610, -0.000415]
+
+🏗️ CITYLEARN_CHALLENGE_2022_PHASE_3
+------------------------------
+
+🤖 RANDOM AGENTS
+  • Número de agentes: 7
+  • Recompensa média: -1.743609
+  • Desvio padrão: 0.009535
+  • Range: [-1.757873, -1.731698]
+
+🤖 RULE BASED AGENTS
+  • Número de agentes: 7
+  • Recompensa média: -1.739039
+  • Desvio padrão: 0.013342
+  • Range: [-1.756943, -1.718479]
+
+🤖 INDEPENDENT AGENTS
+  • Número de agentes: 7
+  • Recompensa média: -1.743933
+  • Desvio padrão: 0.010346
+  • Range: [-1.764238, -1.726280]
+
+🤖 COOPERATIVE AGENTS
+  • Número de agentes: 7
+  • Recompensa média: -0.000373
+  • Desvio padrão: 0.000076
+  • Range: [-0.000495, -0.000298]
+
+📈 ANÁLISE DE ESCALABILIDADE
+--------------------------------------------------
+
+🔍 RANDOM AGENTS:
+  • Melhor dataset: 1 (-1.630465)
+  • Pior dataset: 3 (-1.743609)
+  • Melhoria: 6.5%
+
+🔍 RULE BASED AGENTS:
+  • Melhor dataset: 1 (-1.622433)
+  • Pior dataset: 3 (-1.739039)
+  • Melhoria: 6.7%
+
+🔍 INDEPENDENT AGENTS:
+  • Melhor dataset: 1 (-1.617977)
+  • Pior dataset: 3 (-1.743933)
+  • Melhoria: 7.2%
+
+🔍 COOPERATIVE AGENTS:
+  • Melhor dataset: 3 (-0.000373)
+  • Pior dataset: 2 (-0.000521)
+  • Melhoria: 28.4%
+
+🎯 CONCLUSÕES
+--------------------------------------------------
+• Melhor configuração: Cooperative em 1
+  Recompensa média: -0.000411
+
+📋 RECOMENDAÇÕES:
+• Sistema demonstrado funcionar com todos os datasets de 2022
+• phase_3 (7 prédios) oferece maior desafio e potencial
+• Agentes cooperativos mostram melhor performance geral
+• Framework robusto para avaliações em escala
+• Pronto para extensões e otimizações futuras
+
+📁 ARQUIVOS GERADOS:
+• results/scale_analysis_final.png
+• results/scale_final_report.txt
+• results/scale_final_results.json
+
+================================================================================

@@ -1,0 +1,68 @@
+{
+  "config": {
+    "datasets": [
+      "citylearn_challenge_2022_phase_1",
+      "citylearn_challenge_2022_phase_2",
+      "citylearn_challenge_2022_phase_3"
+    ],
+    "agents": {
+      "types": [
+        "random",
+        "independent",
+        "cooperative"
+      ],
+      "num_agents": null,
+      "communication": {
+        "enabled": true,
+        "protocol": "full"
+      }
+    },
+    "training": {
+      "algorithm": "PPO",
+      "total_timesteps": 500000,
+      "eval_freq": 25000,
+      "save_freq": 100000,
+      "learning_rate": 0.0003,
+      "n_steps": 2048,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2
+    },
+    "evaluation": {
+      "num_episodes": 20,
+      "deterministic": true,
+      "render": false
+    },
+    "logging": {
+      "enabled": true,
+      "tensorboard": true,
+      "save_models": true,
+      "log_dir": "results/scale_training/",
+      "metrics": [
+        "episode_reward",
+        "episode_length",
+        "energy_consumption",
+        "peak_demand",
+        "comfort_violations",
+        "cooperation_score",
+        "training_time",
+        "convergence_rate"
+      ]
+    },
+    "performance": {
+      "parallel_envs": 4,
+      "memory_limit": "4GB",
+      "cpu_limit": 8
+    }
+  },
+  "all_results": {
+    "citylearn_challenge_2022_phase_1": {},
+    "citylearn_challenge_2022_phase_2": {},
+    "citylearn_challenge_2022_phase_3": {}
+  },
+  "performance_analysis": {},
+  "timestamp": "2025-11-03T18:58:52.008164",
+  "best_configuration": null
+}
